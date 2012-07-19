@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system additive="false">
+
+  <emitter imageName="" name="Enemy1">
+    <spawnInterval enabled="false" max="20.0" min="15.0"/>
+    <spawnCount enabled="true" max="15.0" min="1.0"/>
+    <initialLife enabled="false" max="450.0" min="200.0"/>
+    <initialSize enabled="true" max="20.0" min="40.0"/>
+    <xOffset enabled="false" max="8.0" min="-8.0"/>
+    <yOffset enabled="false" max="15.0" min="-8.0"/>
+    <initialDistance enabled="false" max="0.0" min="0.0"/>
+    <speed enabled="false" max="100.0" min="50.0"/>
+    <length enabled="false" max="1000.0" min="1000.0"/>
+    <spread value="0.0"/>
+    <angularOffset value="0.0"/>
+    <growthFactor value="0.0"/>
+    <gravityFactor value="10.0"/>
+    <startAlpha value="255.0"/>
+    <endAlpha value="0.0"/>
+    <color>
+      <step b="0" g="0.0" offset="0.0" r="1.0"/>
+
+    </color>
+  </emitter>
+</system>

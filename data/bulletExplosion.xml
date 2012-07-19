@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system additive="false">
+
+  <emitter imageName="" name="BulletExplosion">
+    <spawnInterval enabled="false" max="20.0" min="15.0"/>
+    <spawnCount enabled="true" max="50.0" min="25.0"/>
+    <initialLife enabled="true" max="1200.0" min="800.0"/>
+    <initialSize enabled="true" max="15.0" min="10.0"/>
+    <xOffset enabled="true" max="18.0" min="-8.0"/>
+    <yOffset enabled="true" max="35.0" min="-8.0"/>
+    <initialDistance enabled="false" max="0.0" min="0.0"/>
+    <speed enabled="false" max="100.0" min="50.0"/>
+    <length enabled="false" max="500.0" min="250.0"/>
+    <spread value="25.0"/>
+    <angularOffset value="45.0"/>
+    <growthFactor value="0.0"/>
+    <gravityFactor value="1.0"/>
+    <startAlpha value="255.0"/>
+    <endAlpha value="0.0"/>
+    <color>
+      <step b="0" g="1.0" offset="0.0" r="1.0"/>
+	  <step b="0" g="0.5" offset="0.4" r="0.5"/>
+	  <step b="0" g="0.0" offset="0.7" r="1.0"/>
+    </color>
+  </emitter>
+</system>
